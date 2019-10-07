@@ -1,0 +1,81 @@
+module fifo_read_fsm(
+	input logic CLOCK_50,
+	input logic reset,
+	input logic start,
+	output logic read,
+	input logic [31:0] fifo_out,
+	output logic [31:0] fifo_out_latch
+);
+
+logic [31:0] p_fifo_out_latch;
+
+enum logic [1:0]{
+	IDLE 	= 2'd0,
+	READ 	= 2'd1,
+	WAIT 	= 2'd2
+} state, next_state;
+
+always_ff @(posedge CLOCK_50)
+begin
+	if (reset)
+	begin
+		state <= IDLE;
+	end
+	else
+	begin
+		state <= next_state;
+	end
+end
+
+always_ff @(posedge CLOCK_50)
+begin
+	if (reset)
+	begin
+		p_fifo_out_latch <= 32'd0;
+	end
+	else
+	begin
+		p_fifo_out_latch <= fifo_out_latch;
+	end
+end
+
+always_comb
+begin
+	next_state = state;
+	unique case(state)
+		IDLE:
+			begin
+				next_state = start ? READ : IDLE;
+			end
+		READ:
+			begin
+				next_state = WAIT;
+			end
+		WAIT:
+			begin
+				next_state = start ? WAIT : IDLE;
+			end
+		default: next_state = IDLE;
+	endcase
+	
+	fifo_out_latch = p_fifo_out_latch;
+	
+	case(state)
+		IDLE:
+			begin
+				read <= 1'b0;
+			end
+		READ:
+			begin
+				read <= 1'b1;
+			end
+		WAIT:
+			begin
+				read <= 1'b0;
+				fifo_out_latch <= fifo_out;
+			end
+		default: ;
+	endcase
+end
+
+endmodule

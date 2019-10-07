@@ -1,0 +1,22 @@
+	component fir is
+		port (
+			begin_load_reset_n   : in  std_logic                     := 'X';             -- reset_n
+			clk_clk              : in  std_logic                     := 'X';             -- clk
+			input_data           : in  std_logic_vector(18 downto 0) := (others => 'X'); -- data
+			input_valid          : in  std_logic                     := 'X';             -- valid
+			input_error          : in  std_logic_vector(1 downto 0)  := (others => 'X'); -- error
+			input_startofpacket  : in  std_logic                     := 'X';             -- startofpacket
+			input_endofpacket    : in  std_logic                     := 'X';             -- endofpacket
+			output_data          : out std_logic_vector(31 downto 0);                    -- data
+			output_valid         : out std_logic;                                        -- valid
+			output_error         : out std_logic_vector(1 downto 0);                     -- error
+			output_startofpacket : out std_logic;                                        -- startofpacket
+			output_endofpacket   : out std_logic;                                        -- endofpacket
+			output_channel       : out std_logic_vector(2 downto 0);                     -- channel
+			reset_reset_n        : in  std_logic                     := 'X';             -- reset_n
+			slave_address        : in  std_logic_vector(9 downto 0)  := (others => 'X'); -- address
+			slave_write          : in  std_logic_vector(0 downto 0)  := (others => 'X'); -- write
+			slave_writedata      : in  std_logic_vector(15 downto 0) := (others => 'X')  -- writedata
+		);
+	end component fir;
+

@@ -1,0 +1,22 @@
+# system info coef_fifo on 2019.03.04.19:13:53
+system_info:
+name,value
+DEVICE,5CSEMA5F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1551748430
+#
+#
+# Files generated for coef_fifo on 2019.03.04.19:13:53
+files:
+filepath,kind,attributes,module,is_top
+simulation/coef_fifo.v,VERILOG,,coef_fifo,true
+simulation/submodules/coef_fifo_fifo_buffer.v,VERILOG,,coef_fifo_fifo_buffer,false
+simulation/submodules/altera_reset_controller.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_synchronizer.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_controller.sdc,SDC,,altera_reset_controller,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+coef_fifo.fifo_buffer,coef_fifo_fifo_buffer
+coef_fifo.rst_controller,altera_reset_controller

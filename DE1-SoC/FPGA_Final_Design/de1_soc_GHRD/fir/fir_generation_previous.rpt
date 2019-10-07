@@ -1,0 +1,60 @@
+Info: Starting: Create simulation model
+Info: qsys-generate H:\juanjm2_git\micArray\Working_Code\de1_soc_GHRD\fir.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=H:\juanjm2_git\micArray\Working_Code\de1_soc_GHRD\fir\simulation --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading de1_soc_GHRD/fir.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Adding fir_compiler_ii_0 [altera_fir_compiler_ii 17.1]
+Progress: Parameterizing module fir_compiler_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fir.fir_compiler_ii_0: PhysChanIn 1, PhysChanOut 1, ChansPerPhyIn 8, ChansPerPhyOut 8, OutputFullBitWidth 32, Bankcount 8, CoefBitWidth 16
+Info: fir: Generating fir "fir" for SIM_VERILOG
+Info: fir_compiler_ii_0: PhysChanIn 1, PhysChanOut 1, ChansPerPhyIn 8, ChansPerPhyOut 8, OutputFullBitWidth 32, Bankcount 8, Latency 14, CoefBitWidth 16
+Info: fir_compiler_ii_0: "fir" instantiated altera_fir_compiler_ii "fir_compiler_ii_0"
+Info: rst_controller: "fir" instantiated altera_reset_controller "rst_controller"
+Info: fir: Done "fir" with 3 modules, 27 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=H:\juanjm2_git\micArray\Working_Code\de1_soc_GHRD\fir\fir.spd --output-directory=H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/fir/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=H:\juanjm2_git\micArray\Working_Code\de1_soc_GHRD\fir\fir.spd --output-directory=H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/fir/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/fir/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/fir/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/fir/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	2 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/fir/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/fir/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate H:\juanjm2_git\micArray\Working_Code\de1_soc_GHRD\fir.qsys --synthesis=VERILOG --output-directory=H:\juanjm2_git\micArray\Working_Code\de1_soc_GHRD\fir\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading de1_soc_GHRD/fir.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Adding fir_compiler_ii_0 [altera_fir_compiler_ii 17.1]
+Progress: Parameterizing module fir_compiler_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fir.fir_compiler_ii_0: PhysChanIn 1, PhysChanOut 1, ChansPerPhyIn 8, ChansPerPhyOut 8, OutputFullBitWidth 32, Bankcount 8, CoefBitWidth 16
+Info: fir: Generating fir "fir" for QUARTUS_SYNTH
+Info: fir_compiler_ii_0: PhysChanIn 1, PhysChanOut 1, ChansPerPhyIn 8, ChansPerPhyOut 8, OutputFullBitWidth 32, Bankcount 8, Latency 14, CoefBitWidth 16
+Info: fir_compiler_ii_0: "fir" instantiated altera_fir_compiler_ii "fir_compiler_ii_0"
+Info: rst_controller: "fir" instantiated altera_reset_controller "rst_controller"
+Info: fir: Done "fir" with 3 modules, 17 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

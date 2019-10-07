@@ -1,0 +1,191 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 400 360)
+	(text "fir" (rect 194 -1 202 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 344 20 356)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "begin_load_reset_n" (rect 0 0 77 12)(font "Arial" (font_size 8)))
+		(text "begin_load_reset_n" (rect 4 61 112 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 128 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 101 46 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 128 112)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "input_data[18..0]" (rect 0 0 63 12)(font "Arial" (font_size 8)))
+		(text "input_data[18..0]" (rect 4 141 106 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 128 152)(line_width 3))
+	)
+	(port
+		(pt 0 168)
+		(input)
+		(text "input_valid" (rect 0 0 41 12)(font "Arial" (font_size 8)))
+		(text "input_valid" (rect 4 157 70 168)(font "Arial" (font_size 8)))
+		(line (pt 0 168)(pt 128 168)(line_width 1))
+	)
+	(port
+		(pt 0 184)
+		(input)
+		(text "input_error[1..0]" (rect 0 0 62 12)(font "Arial" (font_size 8)))
+		(text "input_error[1..0]" (rect 4 173 106 184)(font "Arial" (font_size 8)))
+		(line (pt 0 184)(pt 128 184)(line_width 3))
+	)
+	(port
+		(pt 0 200)
+		(input)
+		(text "input_startofpacket" (rect 0 0 75 12)(font "Arial" (font_size 8)))
+		(text "input_startofpacket" (rect 4 189 118 200)(font "Arial" (font_size 8)))
+		(line (pt 0 200)(pt 128 200)(line_width 1))
+	)
+	(port
+		(pt 0 216)
+		(input)
+		(text "input_endofpacket" (rect 0 0 71 12)(font "Arial" (font_size 8)))
+		(text "input_endofpacket" (rect 4 205 106 216)(font "Arial" (font_size 8)))
+		(line (pt 0 216)(pt 128 216)(line_width 1))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 245 82 256)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 128 256)(line_width 1))
+	)
+	(port
+		(pt 0 296)
+		(input)
+		(text "slave_address[9..0]" (rect 0 0 79 12)(font "Arial" (font_size 8)))
+		(text "slave_address[9..0]" (rect 4 285 118 296)(font "Arial" (font_size 8)))
+		(line (pt 0 296)(pt 128 296)(line_width 3))
+	)
+	(port
+		(pt 0 312)
+		(input)
+		(text "slave_write" (rect 0 0 44 12)(font "Arial" (font_size 8)))
+		(text "slave_write" (rect 4 301 70 312)(font "Arial" (font_size 8)))
+		(line (pt 0 312)(pt 128 312)(line_width 1))
+	)
+	(port
+		(pt 0 328)
+		(input)
+		(text "slave_writedata[15..0]" (rect 0 0 84 12)(font "Arial" (font_size 8)))
+		(text "slave_writedata[15..0]" (rect 4 317 136 328)(font "Arial" (font_size 8)))
+		(line (pt 0 328)(pt 128 328)(line_width 3))
+	)
+	(port
+		(pt 400 72)
+		(output)
+		(text "output_data[31..0]" (rect 0 0 69 12)(font "Arial" (font_size 8)))
+		(text "output_data[31..0]" (rect 312 61 420 72)(font "Arial" (font_size 8)))
+		(line (pt 400 72)(pt 272 72)(line_width 3))
+	)
+	(port
+		(pt 400 88)
+		(output)
+		(text "output_valid" (rect 0 0 47 12)(font "Arial" (font_size 8)))
+		(text "output_valid" (rect 339 77 411 88)(font "Arial" (font_size 8)))
+		(line (pt 400 88)(pt 272 88)(line_width 1))
+	)
+	(port
+		(pt 400 104)
+		(output)
+		(text "output_error[1..0]" (rect 0 0 68 12)(font "Arial" (font_size 8)))
+		(text "output_error[1..0]" (rect 315 93 423 104)(font "Arial" (font_size 8)))
+		(line (pt 400 104)(pt 272 104)(line_width 3))
+	)
+	(port
+		(pt 400 120)
+		(output)
+		(text "output_startofpacket" (rect 0 0 81 12)(font "Arial" (font_size 8)))
+		(text "output_startofpacket" (rect 296 109 416 120)(font "Arial" (font_size 8)))
+		(line (pt 400 120)(pt 272 120)(line_width 1))
+	)
+	(port
+		(pt 400 136)
+		(output)
+		(text "output_endofpacket" (rect 0 0 77 12)(font "Arial" (font_size 8)))
+		(text "output_endofpacket" (rect 300 125 408 136)(font "Arial" (font_size 8)))
+		(line (pt 400 136)(pt 272 136)(line_width 1))
+	)
+	(port
+		(pt 400 152)
+		(output)
+		(text "output_channel[2..0]" (rect 0 0 79 12)(font "Arial" (font_size 8)))
+		(text "output_channel[2..0]" (rect 299 141 419 152)(font "Arial" (font_size 8)))
+		(line (pt 400 152)(pt 272 152)(line_width 3))
+	)
+	(drawing
+		(text "begin_load" (rect 66 43 192 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 133 67 308 144)(font "Arial" (color 0 0 0)))
+		(text "clk" (rect 113 83 244 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 133 107 284 224)(font "Arial" (color 0 0 0)))
+		(text "input" (rect 101 123 232 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "data" (rect 133 147 290 304)(font "Arial" (color 0 0 0)))
+		(text "valid" (rect 133 163 296 336)(font "Arial" (color 0 0 0)))
+		(text "error" (rect 133 179 296 368)(font "Arial" (color 0 0 0)))
+		(text "startofpacket" (rect 133 195 344 400)(font "Arial" (color 0 0 0)))
+		(text "endofpacket" (rect 133 211 332 432)(font "Arial" (color 0 0 0)))
+		(text "output" (rect 273 43 582 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "data" (rect 251 67 526 144)(font "Arial" (color 0 0 0)))
+		(text "valid" (rect 249 83 528 176)(font "Arial" (color 0 0 0)))
+		(text "error" (rect 247 99 524 208)(font "Arial" (color 0 0 0)))
+		(text "startofpacket" (rect 212 115 502 240)(font "Arial" (color 0 0 0)))
+		(text "endofpacket" (rect 217 131 500 272)(font "Arial" (color 0 0 0)))
+		(text "channel" (rect 237 147 516 304)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 99 227 228 467)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 133 251 308 512)(font "Arial" (color 0 0 0)))
+		(text "slave" (rect 99 267 228 547)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "address" (rect 133 291 308 592)(font "Arial" (color 0 0 0)))
+		(text "write" (rect 133 307 296 624)(font "Arial" (color 0 0 0)))
+		(text "writedata" (rect 133 323 320 656)(font "Arial" (color 0 0 0)))
+		(text " system " (rect 365 344 778 698)(font "Arial" ))
+		(line (pt 128 32)(pt 272 32)(line_width 1))
+		(line (pt 272 32)(pt 272 344)(line_width 1))
+		(line (pt 128 344)(pt 272 344)(line_width 1))
+		(line (pt 128 32)(pt 128 344)(line_width 1))
+		(line (pt 129 52)(pt 129 76)(line_width 1))
+		(line (pt 130 52)(pt 130 76)(line_width 1))
+		(line (pt 129 92)(pt 129 116)(line_width 1))
+		(line (pt 130 92)(pt 130 116)(line_width 1))
+		(line (pt 129 132)(pt 129 220)(line_width 1))
+		(line (pt 130 132)(pt 130 220)(line_width 1))
+		(line (pt 271 52)(pt 271 156)(line_width 1))
+		(line (pt 270 52)(pt 270 156)(line_width 1))
+		(line (pt 129 236)(pt 129 260)(line_width 1))
+		(line (pt 130 236)(pt 130 260)(line_width 1))
+		(line (pt 129 276)(pt 129 332)(line_width 1))
+		(line (pt 130 276)(pt 130 332)(line_width 1))
+		(line (pt 0 0)(pt 400 0)(line_width 1))
+		(line (pt 400 0)(pt 400 360)(line_width 1))
+		(line (pt 0 360)(pt 400 360)(line_width 1))
+		(line (pt 0 0)(pt 0 360)(line_width 1))
+	)
+)

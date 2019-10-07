@@ -1,0 +1,11 @@
+	component coef_fifo is
+		port (
+			clk_clk       : in  std_logic                     := 'X';             -- clk
+			in_writedata  : in  std_logic_vector(15 downto 0) := (others => 'X'); -- writedata
+			in_write      : in  std_logic                     := 'X';             -- write
+			out_readdata  : out std_logic_vector(15 downto 0);                    -- readdata
+			out_read      : in  std_logic                     := 'X';             -- read
+			reset_reset_n : in  std_logic                     := 'X'              -- reset_n
+		);
+	end component coef_fifo;
+

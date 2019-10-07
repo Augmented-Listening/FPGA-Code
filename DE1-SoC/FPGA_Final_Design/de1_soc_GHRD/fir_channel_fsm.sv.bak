@@ -1,0 +1,103 @@
+module fir_channel_fsm(
+	input logic CLOCK_50,
+	input logic reset,
+	input logic ready,
+	input logic [15:0] channel_1,
+	input logic [15:0] channel_2,
+	input logic [15:0] channel_3,
+	input logic [15:0] channel_4,
+	output logic [17:0] output_data,
+	output logic output_valid,
+	output logic sop,
+	output logic eop
+);
+
+enum logic [2:0] {
+	IDLE = 3'd0,
+	TX_1 = 3'd1,
+	TX_2 = 3'd2,
+	TX_3 = 3'd3,
+	TX_4 = 3'd4
+} state, next_state;
+
+always_ff @(posedge CLOCK_50)
+begin
+	if (reset)
+	begin
+		state <= IDLE;
+	end
+	else
+	begin
+		state <= next_state;
+	end
+end
+
+always_comb
+begin
+	next_state = state;
+	unique case(state)
+		IDLE:
+			begin
+				next_state = ready ? TX_1 : IDLE;
+			end
+		TX_1:
+			begin
+				next_state = TX_2;
+			end
+		TX_2:
+			begin
+				next_state = TX_3;
+			end
+		TX_3:
+			begin
+				next_state = TX_4;
+			end
+		TX_4:
+			begin
+				next_state = IDLE;
+			end
+		default : next_state = IDLE;
+	endcase
+	
+	output_data = 18'd0;
+	
+	case(state)
+		IDLE:
+			begin
+				sop <= 1'b0;
+				eop <= 1'b0;
+				output_valid <= 1'b0;
+			end
+		TX_1:
+			begin
+				sop <= 1'b1;
+				output_data <= {2'b00, channel_1};
+				eop <= 1'b0;
+				output_valid <= 1'b1;
+			end
+		TX_2:
+			begin
+				sop <= 1'b0;
+				output_data <= {2'b01, channel_2};
+				eop <= 1'b0;
+				output_valid <= 1'b1;
+			end
+		TX_3:
+			begin
+				sop <= 1'b0;
+				output_data <= {2'b10, channel_3};
+				eop <= 1'b0;
+				output_valid <= 1'b1;
+			end
+		TX_4:
+			begin
+				sop <= 1'b0;
+				output_data <= {2'b11, channel_4};
+				eop <= 1'b1;
+				output_valid <= 1'b1;
+			end
+		default: ;
+	endcase
+end
+
+endmodule
