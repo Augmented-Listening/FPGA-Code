@@ -1,0 +1,27 @@
+set_global_assignment -entity "float" -library "lib_float" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "float" -library "lib_float" -name IP_TOOL_VERSION "17.1"
+set_global_assignment -entity "float" -library "lib_float" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "lib_float" -name SPD_FILE [file join $::quartus(sip_path) "../float.spd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "../../float.qsys"]
+
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "float.v"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/float_nios_custom_instr_floating_point_2_0.v"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/fpoint2_multi.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/fpoint2_multi_datapath.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/fpoint2_multi_dspba_library_package.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/fpoint2_multi_dspba_library.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPAddSub/FPAddSub.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPDiv/FPDiv.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPMult/FPMult.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/IntToFloat/IntToFloat.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FloatToInt/FloatToInt.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPSqrt/FPSqrt_safe_path.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPSqrt/FPSqrt.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPSqrt/FPSqrt_memoryC0_uid59_sqrtTableGenerator_lutmem.hex"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPSqrt/FPSqrt_memoryC1_uid60_sqrtTableGenerator_lutmem.hex"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPSqrt/FPSqrt_memoryC2_uid61_sqrtTableGenerator_lutmem.hex"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/fpoint2_combi.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPMinMaxFused/FPMinMaxFused.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPCompareFused/FPCompareFused.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPNeg_Abs/FPNeg.vhd"]
+set_global_assignment -library "lib_float" -name MISC_FILE [file join $::quartus(sip_path) "submodules/FPNeg_Abs/FPAbs.vhd"]

@@ -4,15 +4,15 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "AUD_DACDAT",
+					"strict" : false
+				},
+				{
 					"name" : "GPIO_BCLK",
 					"strict" : false
 				},
 				{
 					"name" : "GPIO_LRCLK",
-					"strict" : false
-				},
-				{
-					"name" : "AUD_DACDAT",
 					"strict" : false
 				},
 				{
@@ -44,10 +44,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "KEY[1]",
-					"strict" : false
-				},
-				{
 					"name" : "KEY[2]",
 					"strict" : false
 				},
@@ -56,11 +52,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "GPIO_DIN4",
-					"strict" : false
-				},
-				{
-					"name" : "GPIO_DIN3",
+					"name" : "KEY[1]",
 					"strict" : false
 				},
 				{
@@ -68,11 +60,64 @@
 					"strict" : false
 				},
 				{
+					"name" : "GPIO_DIN4",
+					"strict" : false
+				},
+				{
 					"name" : "GPIO_DIN2",
 					"strict" : false
 				},
 				{
+					"name" : "GPIO_DIN3",
+					"strict" : false
+				},
+				{
 					"name" : "AUD_ADCDAT",
+					"strict" : false
+				}
+			]
+		},
+		{
+			"name" : "float:inst_L",
+			"pins" : [
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				}
+			]
+		},
+		{
+			"name" : "float:inst_fir_4",
+			"pins" : [
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				}
+			]
+		},
+		{
+			"name" : "float:inst_fir_6",
+			"pins" : [
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				}
+			]
+		},
+		{
+			"name" : "float:inst_fir_8",
+			"pins" : [
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				}
+			]
+		},
+		{
+			"name" : "volumeControl:vol_cntl",
+			"pins" : [
+				{
+					"name" : "CLOCK_50",
 					"strict" : false
 				}
 			]

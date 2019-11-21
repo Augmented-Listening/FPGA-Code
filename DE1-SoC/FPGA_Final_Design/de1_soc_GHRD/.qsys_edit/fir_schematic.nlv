@@ -4,12 +4,12 @@ preplace inst fir.fir_compiler_ii_0 -pg 1 -lvl 2 -y 60
 preplace inst fir.clk_0 -pg 1 -lvl 1 -y 90
 preplace inst fir -pg 1 -lvl 1 -y 40 -regy -20
 preplace netloc EXPORT<net_container>fir</net_container>(SLAVE)fir.slave,(SLAVE)fir_compiler_ii_0.avalon_mm_slave) 1 0 2 NJ 40 NJ
-preplace netloc EXPORT<net_container>fir</net_container>(SLAVE)fir_compiler_ii_0.avalon_streaming_sink,(SLAVE)fir.input) 1 0 2 NJ 80 NJ
+preplace netloc EXPORT<net_container>fir</net_container>(SLAVE)fir.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
 preplace netloc EXPORT<net_container>fir</net_container>(MASTER)fir.output,(MASTER)fir_compiler_ii_0.avalon_streaming_source) 1 2 1 N
-preplace netloc EXPORT<net_container>fir</net_container>(SLAVE)clk_0.clk_in,(SLAVE)fir.clk) 1 0 1 NJ
-preplace netloc FAN_OUT<net_container>fir</net_container>(SLAVE)fir_compiler_ii_0.clk,(MASTER)clk_0.clk,(SLAVE)fir_compiler_ii_0.coeff_clock) 1 1 1 330
-preplace netloc EXPORT<net_container>fir</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)fir.reset) 1 0 1 NJ
-preplace netloc POINT_TO_POINT<net_container>fir</net_container>(MASTER)clk_0.clk_reset,(SLAVE)fir_compiler_ii_0.rst) 1 1 1 310
-preplace netloc EXPORT<net_container>fir</net_container>(SLAVE)fir.begin_load,(SLAVE)fir_compiler_ii_0.coeff_reset) 1 0 2 NJ 160 NJ
+preplace netloc POINT_TO_POINT<net_container>fir</net_container>(SLAVE)fir_compiler_ii_0.rst,(MASTER)clk_0.clk_reset) 1 1 1 310
+preplace netloc FAN_OUT<net_container>fir</net_container>(SLAVE)fir_compiler_ii_0.clk,(SLAVE)fir_compiler_ii_0.coeff_clock,(MASTER)clk_0.clk) 1 1 1 330
+preplace netloc EXPORT<net_container>fir</net_container>(SLAVE)fir_compiler_ii_0.coeff_reset,(SLAVE)fir.begin_load) 1 0 2 NJ 160 NJ
+preplace netloc EXPORT<net_container>fir</net_container>(SLAVE)fir.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>fir</net_container>(SLAVE)fir.input,(SLAVE)fir_compiler_ii_0.avalon_streaming_sink) 1 0 2 NJ 80 NJ
 levelinfo -pg 1 0 80 670
 levelinfo -hier fir 90 120 400 600

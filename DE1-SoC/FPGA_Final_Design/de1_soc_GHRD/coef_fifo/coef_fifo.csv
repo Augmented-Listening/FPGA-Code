@@ -1,12 +1,12 @@
-# system info coef_fifo on 2019.03.04.19:13:53
+# system info coef_fifo on 2019.10.30.22:31:29
 system_info:
 name,value
 DEVICE,5CSEMA5F31C6
 DEVICE_FAMILY,Cyclone V
-GENERATION_ID,1551748430
+GENERATION_ID,1572474689
 #
 #
-# Files generated for coef_fifo on 2019.03.04.19:13:53
+# Files generated for coef_fifo on 2019.10.30.22:31:29
 files:
 filepath,kind,attributes,module,is_top
 simulation/coef_fifo.v,VERILOG,,coef_fifo,true

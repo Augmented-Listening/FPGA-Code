@@ -73,7 +73,7 @@
  -- Pin directions (input, output or bidir) are based on device operating in user mode.
  ---------------------------------------------------------------------------------
 
-Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
 CHIP  "soc_system"  ASSIGNED TO AN: 5CSEMA5F31C6
 
 Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
@@ -261,7 +261,7 @@ GND                          : AF2       : gnd    :                   :         
 GND                          : AF3       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF4       :        :                   :         : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF5       :        :                   :         : 3A        :                
-GPIO_0[0]                    : AF6       : bidir  : 3.3-V LVTTL       :         : 3A        : N              
+GPIO_0[2]                    : AF6       : bidir  : 3.3-V LVTTL       :         : 3A        : N              
 VCCIO3A                      : AF7       : power  :                   : 3.3V    : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF8       :        :                   :         : 3A        :                
 SW[2]                        : AF9       : input  : 3.3-V LVTTL       :         : 3A        : Y              
@@ -291,7 +291,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AG2       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG3       :        :                   :         : 3A        :                
 VCCIO3A                      : AG4       : power  :                   : 3.3V    : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG5       :        :                   :         : 3A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AG6       :        :                   :         : 3A        :                
+GPIO_0[1]                    : AG6       : bidir  : 3.3-V LVTTL       :         : 3A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG7       :        :                   :         : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG8       :        :                   :         : 3A        :                
 GND                          : AG9       : gnd    :                   :         :           :                
@@ -319,7 +319,7 @@ HEX1[3]                      : AG30      : output : 3.3-V LVTTL       :         
 GND                          : AH1       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH2       :        :                   :         : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH3       :        :                   :         : 3A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AH4       :        :                   :         : 3A        :                
+GPIO_0[4]                    : AH4       : bidir  : 3.3-V LVTTL       :         : 3A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH5       :        :                   :         : 3A        :                
 GND                          : AH6       : gnd    :                   :         :           :                
 DRAM_DQ[13]                  : AH7       : bidir  : 3.3-V LVTTL       :         : 3B        : Y              
@@ -442,7 +442,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : C5        :        :                   :      
 GND                          : C6        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C7        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 8A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C9        :        :                   :         : 8A        :                
+GPIO_0[5]                    : C9        : bidir  : 3.3-V LVTTL       :         : 8A        : N              
 VGA_SYNC_N                   : C10       : output : 3.3-V LVTTL       :         : 8A        : Y              
 VCCIO8A                      : C11       : power  :                   : 3.3V    : 8A        :                
 VGA_R[4]                     : C12       : output : 3.3-V LVTTL       :         : 8A        : Y              
@@ -467,13 +467,13 @@ HPS_DDR3_ADDR[11]            : C30       : output : SSTL-15 Class I   :         
 TD_DATA[4]                   : D1        : input  : 3.3-V LVTTL       :         : 8A        : Y              
 TD_DATA[0]                   : D2        : input  : 3.3-V LVTTL       :         : 8A        : Y              
 GND                          : D3        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : D4        :        :                   :         : 8A        :                
+GPIO_0[3]                    : D4        : bidir  : 3.3-V LVTTL       :         : 8A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : D5        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D6        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D7        :        :                   :         : 8A        :                
 VCCIO8A                      : D8        : power  :                   : 3.3V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D9        :        :                   :         : 8A        :                
-GPIO_0[3]                    : D10       : bidir  : 3.3-V LVTTL       :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D10       :        :                   :         : 8A        :                
 VGA_VS                       : D11       : output : 3.3-V LVTTL       :         : 8A        : Y              
 VGA_R[5]                     : D12       : output : 3.3-V LVTTL       :         : 8A        : Y              
 GND                          : D13       : gnd    :                   :         :           :                
@@ -497,12 +497,12 @@ HPS_DDR3_RAS_N               : D30       : output : SSTL-15 Class I   :         
 TD_DATA[5]                   : E1        : input  : 3.3-V LVTTL       :         : 8A        : Y              
 TD_DATA[2]                   : E2        : input  : 3.3-V LVTTL       :         : 8A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : E3        :        :                   :         : 8A        :                
-GPIO_0[4]                    : E4        : bidir  : 3.3-V LVTTL       :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E4        :        :                   :         : 8A        :                
 VCCIO8A                      : E5        : power  :                   : 3.3V    : 8A        :                
-GPIO_0[5]                    : E6        : bidir  : 3.3-V LVTTL       :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E6        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E7        :        :                   :         : 8A        :                
-GPIO_0[2]                    : E8        : bidir  : 3.3-V LVTTL       :         : 8A        : N              
-GPIO_0[1]                    : E9        : bidir  : 3.3-V LVTTL       :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E8        :        :                   :         : 8A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E9        :        :                   :         : 8A        :                
 GND                          : E10       : gnd    :                   :         :           :                
 VGA_G[7]                     : E11       : output : 3.3-V LVTTL       :         : 8A        : Y              
 VGA_R[6]                     : E12       : output : 3.3-V LVTTL       :         : 8A        : Y              
@@ -561,7 +561,7 @@ GND                          : G4        : gnd    :                   :         
 nCE                          : G5        :        :                   :         : 9A        :                
 MSEL2                        : G6        :        :                   :         : 9A        :                
 AUD_XCK                      : G7        : output : 3.3-V LVTTL       :         : 8A        : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : G8        :        :                   :         : 8A        :                
+GPIO_0[0]                    : G8        : bidir  : 3.3-V LVTTL       :         : 8A        : N              
 VCCIO8A                      : G9        : power  :                   : 3.3V    : 8A        :                
 VGA_G[3]                     : G10       : output : 3.3-V LVTTL       :         : 8A        : Y              
 VGA_G[4]                     : G11       : output : 3.3-V LVTTL       :         : 8A        : Y              

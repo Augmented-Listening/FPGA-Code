@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2019.03.04.19:13:58"
- outputDirectory="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/coef_fifo/">
+ date="2019.10.30.22:31:30"
+ outputDirectory="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/coef_fifo/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -147,13 +147,13 @@
  </perimeter>
  <entity
    path=""
-   parameterizationKey="coef_fifo:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1551748436,AUTO_UNIQUE_ID=(clock_source:17.1:clockFrequency=50000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(altera_avalon_fifo:17.1:avalonMMAvalonMMDataWidth=16,avalonMMAvalonSTDataWidth=32,bitsPerSymbol=16,channelWidth=8,derived_sink_source_avalonST_width=32,derived_use_avalonMM_rd_slave=true,derived_use_avalonMM_wr_slave=true,derived_use_avalonST_sink=false,derived_use_avalonST_source=false,deviceFamilyString=Cyclone V,errorWidth=8,fifoDepth=512,fifoInputInterfaceOptions=AVALONMM_WRITE,fifoOutputInterfaceOptions=AVALONMM_READ,showHiddenFeatures=false,singleClockMode=true,singleResetMode=false,symbolsPerBeat=2,useBackpressure=false,useIRQ=true,usePacket=true,useReadControl=false,useRegister=false,useWriteControl=false)(clock:17.1:)(reset:17.1:)"
+   parameterizationKey="coef_fifo:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1572474689,AUTO_UNIQUE_ID=(clock_source:17.1:clockFrequency=50000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(altera_avalon_fifo:17.1:avalonMMAvalonMMDataWidth=16,avalonMMAvalonSTDataWidth=32,bitsPerSymbol=16,channelWidth=8,derived_sink_source_avalonST_width=32,derived_use_avalonMM_rd_slave=true,derived_use_avalonMM_wr_slave=true,derived_use_avalonST_sink=false,derived_use_avalonST_source=false,deviceFamilyString=Cyclone V,errorWidth=8,fifoDepth=512,fifoInputInterfaceOptions=AVALONMM_WRITE,fifoOutputInterfaceOptions=AVALONMM_READ,showHiddenFeatures=false,singleClockMode=true,singleResetMode=false,symbolsPerBeat=2,useBackpressure=false,useIRQ=true,usePacket=true,useReadControl=false,useRegister=false,useWriteControl=false)(clock:17.1:)(reset:17.1:)"
    instancePathKey="coef_fifo"
    kind="coef_fifo"
    version="1.0"
    name="coef_fifo">
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
-  <parameter name="AUTO_GENERATION_ID" value="1551748436" />
+  <parameter name="AUTO_GENERATION_ID" value="1572474689" />
   <parameter name="AUTO_DEVICE" value="5CSEMA5F31C6" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
   <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
@@ -162,36 +162,36 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6" />
   <generatedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/coef_fifo/synthesis/coef_fifo.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/coef_fifo/synthesis/coef_fifo.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/coef_fifo/synthesis/submodules/coef_fifo_fifo_buffer.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/coef_fifo/synthesis/submodules/coef_fifo_fifo_buffer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_controller.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_controller.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_synchronizer.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_synchronizer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_controller.sdc"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_controller.sdc"
        type="SDC"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/coef_fifo.qsys" />
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/coef_fifo.qsys" />
   </sourceFiles>
   <childSourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/sopc_builder_ip/altera_avalon_fifo/altera_avalon_fifo_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/sopc_builder_ip/altera_avalon_fifo/altera_avalon_fifo_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
   </childSourceFiles>
   <messages>
    <message level="Debug" culprit="coef_fifo">queue size: 0 starting:coef_fifo "coef_fifo"</message>
@@ -215,7 +215,7 @@
    <message level="Debug" culprit="coef_fifo"><![CDATA["<b>coef_fifo</b>" reuses <b>altera_reset_controller</b> "<b>submodules/altera_reset_controller</b>"]]></message>
    <message level="Debug" culprit="coef_fifo">queue size: 1 starting:altera_avalon_fifo "submodules/coef_fifo_fifo_buffer"</message>
    <message level="Info" culprit="fifo_buffer">Starting RTL generation for module 'coef_fifo_fifo_buffer'</message>
-   <message level="Info" culprit="fifo_buffer">  Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo/generate_rtl.pl --name=coef_fifo_fifo_buffer --dir=C:/Users/JJ/AppData/Local/Temp/alt7960_6579862973601083765.dir/0005_fifo_buffer_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/JJ/AppData/Local/Temp/alt7960_6579862973601083765.dir/0005_fifo_buffer_gen//coef_fifo_fifo_buffer_component_configuration.pl  --do_build_sim=0  ]</message>
+   <message level="Info" culprit="fifo_buffer">  Generation command is [exec /home/ubuntu/intelFPGA/17.1/quartus/linux64/perl/bin/perl -I /home/ubuntu/intelFPGA/17.1/quartus/linux64/perl/lib -I /home/ubuntu/intelFPGA/17.1/quartus/sopc_builder/bin/europa -I /home/ubuntu/intelFPGA/17.1/quartus/sopc_builder/bin/perl_lib -I /home/ubuntu/intelFPGA/17.1/quartus/sopc_builder/bin -I /home/ubuntu/intelFPGA/17.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/ubuntu/intelFPGA/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo -- /home/ubuntu/intelFPGA/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo/generate_rtl.pl --name=coef_fifo_fifo_buffer --dir=/tmp/alt8199_8730216791860173650.dir/0099_fifo_buffer_gen/ --quartus_dir=/home/ubuntu/intelFPGA/17.1/quartus --verilog --config=/tmp/alt8199_8730216791860173650.dir/0099_fifo_buffer_gen//coef_fifo_fifo_buffer_component_configuration.pl  --do_build_sim=0  ]</message>
    <message level="Info" culprit="fifo_buffer">Done RTL generation for module 'coef_fifo_fifo_buffer'</message>
    <message level="Info" culprit="fifo_buffer"><![CDATA["<b>coef_fifo</b>" instantiated <b>altera_avalon_fifo</b> "<b>fifo_buffer</b>"]]></message>
    <message level="Debug" culprit="coef_fifo">queue size: 0 starting:altera_reset_controller "submodules/altera_reset_controller"</message>
@@ -255,21 +255,21 @@
   <parameter name="singleClockMode" value="true" />
   <generatedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/coef_fifo/synthesis/submodules/coef_fifo_fifo_buffer.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/coef_fifo/synthesis/submodules/coef_fifo_fifo_buffer.v"
        type="VERILOG"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/sopc_builder_ip/altera_avalon_fifo/altera_avalon_fifo_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/sopc_builder_ip/altera_avalon_fifo/altera_avalon_fifo_hw.tcl" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="coef_fifo" as="fifo_buffer" />
   <messages>
    <message level="Debug" culprit="coef_fifo">queue size: 1 starting:altera_avalon_fifo "submodules/coef_fifo_fifo_buffer"</message>
    <message level="Info" culprit="fifo_buffer">Starting RTL generation for module 'coef_fifo_fifo_buffer'</message>
-   <message level="Info" culprit="fifo_buffer">  Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo/generate_rtl.pl --name=coef_fifo_fifo_buffer --dir=C:/Users/JJ/AppData/Local/Temp/alt7960_6579862973601083765.dir/0005_fifo_buffer_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/JJ/AppData/Local/Temp/alt7960_6579862973601083765.dir/0005_fifo_buffer_gen//coef_fifo_fifo_buffer_component_configuration.pl  --do_build_sim=0  ]</message>
+   <message level="Info" culprit="fifo_buffer">  Generation command is [exec /home/ubuntu/intelFPGA/17.1/quartus/linux64/perl/bin/perl -I /home/ubuntu/intelFPGA/17.1/quartus/linux64/perl/lib -I /home/ubuntu/intelFPGA/17.1/quartus/sopc_builder/bin/europa -I /home/ubuntu/intelFPGA/17.1/quartus/sopc_builder/bin/perl_lib -I /home/ubuntu/intelFPGA/17.1/quartus/sopc_builder/bin -I /home/ubuntu/intelFPGA/17.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/ubuntu/intelFPGA/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo -- /home/ubuntu/intelFPGA/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo/generate_rtl.pl --name=coef_fifo_fifo_buffer --dir=/tmp/alt8199_8730216791860173650.dir/0099_fifo_buffer_gen/ --quartus_dir=/home/ubuntu/intelFPGA/17.1/quartus --verilog --config=/tmp/alt8199_8730216791860173650.dir/0099_fifo_buffer_gen//coef_fifo_fifo_buffer_component_configuration.pl  --do_build_sim=0  ]</message>
    <message level="Info" culprit="fifo_buffer">Done RTL generation for module 'coef_fifo_fifo_buffer'</message>
    <message level="Info" culprit="fifo_buffer"><![CDATA["<b>coef_fifo</b>" instantiated <b>altera_avalon_fifo</b> "<b>fifo_buffer</b>"]]></message>
   </messages>
@@ -283,22 +283,22 @@
    name="altera_reset_controller">
   <generatedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_controller.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_controller.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_synchronizer.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_synchronizer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_controller.sdc"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/coef_fifo/synthesis/submodules/altera_reset_controller.sdc"
        type="SDC"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="coef_fifo" as="rst_controller" />

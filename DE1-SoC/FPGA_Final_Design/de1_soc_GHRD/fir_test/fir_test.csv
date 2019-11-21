@@ -1,0 +1,41 @@
+# system info fir_test on 2019.10.30.22:30:13
+system_info:
+name,value
+DEVICE,5CSEMA5F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1572474613
+#
+#
+# Files generated for fir_test on 2019.10.30.22:30:13
+files:
+filepath,kind,attributes,module,is_top
+simulation/fir_test.v,VERILOG,,fir_test,true
+simulation/submodules/dspba_library_package.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/dspba_library.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/auk_dspip_math_pkg_hpfir.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/auk_dspip_lib_pkg_hpfir.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/auk_dspip_avalon_streaming_controller_hpfir.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/auk_dspip_avalon_streaming_sink_hpfir.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/auk_dspip_avalon_streaming_source_hpfir.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/auk_dspip_roundsat_hpfir.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/altera_avalon_sc_fifo.v,VERILOG,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/fir_test_fir_compiler_ii_0_rtl_core.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/fir_test_fir_compiler_ii_0_ast.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/fir_test_fir_compiler_ii_0.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/fir_test_fir_compiler_ii_0_nativelink.tcl,OTHER,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/fir_test_fir_compiler_ii_0_msim.tcl,OTHER,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/fir_test_fir_compiler_ii_0_tb.vhd,VHDL,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/fir_test_fir_compiler_ii_0_mlab.m,OTHER,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/fir_test_fir_compiler_ii_0_model.m,OTHER,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/fir_test_fir_compiler_ii_0_coef_int.txt,OTHER,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/fir_test_fir_compiler_ii_0_input.txt,OTHER,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/fir_test_fir_compiler_ii_0_param.txt,OTHER,,fir_test_fir_compiler_ii_0,false
+simulation/submodules/altera_reset_controller.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_synchronizer.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_controller.sdc,SDC,,altera_reset_controller,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+fir_test.fir_compiler_ii_0,fir_test_fir_compiler_ii_0
+fir_test.rst_controller,altera_reset_controller

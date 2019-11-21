@@ -110,72 +110,72 @@ data = np.transpose(data)
 print("Writing mic_pair_3.wav")
 write('mic_pair_3.wav', 48000, data)
 
-####################################################################################################
-F = open("MIC_4_LEFT.dat", "r")
+# ####################################################################################################
+# F = open("MIC_4_LEFT.dat", "r")
 
-data_l = []
+# data_l = []
 
-for line in F:
-    data_l.append(int(line));
+# for line in F:
+#     data_l.append(int(line));
 
-F.close()
+# F.close()
 
-data_l = np.asarray(data_l, dtype=np.int16)
+# data_l = np.asarray(data_l, dtype=np.int16)
 
-F = open("MIC_4_RIGHT.dat", "r")
+# F = open("MIC_4_RIGHT.dat", "r")
 
-data_r = []
+# data_r = []
 
-for line in F:
-    data_r.append(int(line));
+# for line in F:
+#     data_r.append(int(line));
 
-F.close()
+# F.close()
 
-data_r = np.asarray(data_r, dtype=np.int16)
+# data_r = np.asarray(data_r, dtype=np.int16)
 
-#print(data_l.shape)
-#print(data_r.shape)
+# #print(data_l.shape)
+# #print(data_r.shape)
 
-data = np.stack((data_l, data_r))
-data = np.transpose(data)
-#print(data.shape)
+# data = np.stack((data_l, data_r))
+# data = np.transpose(data)
+# #print(data.shape)
 
-print("Writing mic_pair_4.wav")
-write('mic_pair_4.wav', 48000, data)
+# print("Writing mic_pair_4.wav")
+# write('mic_pair_4.wav', 48000, data)
 
-####################################################################################################
+# ####################################################################################################
 
-F = open("LINE_IN_LEFT.dat", "r")
+# F = open("LINE_IN_LEFT.dat", "r")
 
-data_l = []
+# data_l = []
 
-for line in F:
-    data_l.append(int(line));
+# for line in F:
+#     data_l.append(int(line));
 
-F.close()
+# F.close()
 
-data_l = np.asarray(data_l, dtype=np.int16)
+# data_l = np.asarray(data_l, dtype=np.int16)
 
-F = open("LINE_IN_RIGHT.dat", "r")
+# F = open("LINE_IN_RIGHT.dat", "r")
 
-data_r = []
+# data_r = []
 
-for line in F:
-    data_r.append(int(line));
+# for line in F:
+#     data_r.append(int(line));
 
-F.close()
+# F.close()
 
-data_r = np.asarray(data_r, dtype=np.int16)
+# data_r = np.asarray(data_r, dtype=np.int16)
 
-#print(data_l.shape)
-#print(data_r.shape)
+# #print(data_l.shape)
+# #print(data_r.shape)
 
-data = np.stack((data_l, data_r))
-data = np.transpose(data)
-#print(data.shape)
+# data = np.stack((data_l, data_r))
+# data = np.transpose(data)
+# #print(data.shape)
 
-print("Writing line_in_output.wav")
-write('line_in_output.wav', 48000, data)
+# print("Writing line_in_output.wav")
+# write('line_in_output.wav', 48000, data)
 
 print("Data successfully converted!")
 ####################################################################################################

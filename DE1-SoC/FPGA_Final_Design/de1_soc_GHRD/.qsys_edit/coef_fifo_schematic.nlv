@@ -3,11 +3,11 @@
 preplace inst coef_fifo.fifo_buffer -pg 1 -lvl 2 -y 70
 preplace inst coef_fifo.clk_0 -pg 1 -lvl 1 -y 30
 preplace inst coef_fifo -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc EXPORT<net_container>coef_fifo</net_container>(SLAVE)fifo_buffer.out,(SLAVE)coef_fifo.out) 1 0 2 NJ 120 NJ
 preplace netloc POINT_TO_POINT<net_container>coef_fifo</net_container>(SLAVE)fifo_buffer.reset_in,(MASTER)clk_0.clk_reset) 1 1 1 260
-preplace netloc EXPORT<net_container>coef_fifo</net_container>(SLAVE)coef_fifo.in,(SLAVE)fifo_buffer.in) 1 0 2 NJ 100 NJ
 preplace netloc EXPORT<net_container>coef_fifo</net_container>(SLAVE)coef_fifo.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
-preplace netloc POINT_TO_POINT<net_container>coef_fifo</net_container>(SLAVE)fifo_buffer.clk_in,(MASTER)clk_0.clk) 1 1 1 280
+preplace netloc EXPORT<net_container>coef_fifo</net_container>(SLAVE)fifo_buffer.in,(SLAVE)coef_fifo.in) 1 0 2 NJ 100 NJ
 preplace netloc EXPORT<net_container>coef_fifo</net_container>(SLAVE)coef_fifo.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
-preplace netloc EXPORT<net_container>coef_fifo</net_container>(SLAVE)coef_fifo.out,(SLAVE)fifo_buffer.out) 1 0 2 NJ 120 NJ
+preplace netloc POINT_TO_POINT<net_container>coef_fifo</net_container>(MASTER)clk_0.clk,(SLAVE)fifo_buffer.clk_in) 1 1 1 280
 levelinfo -pg 1 0 50 420
 levelinfo -hier coef_fifo 60 90 310 410

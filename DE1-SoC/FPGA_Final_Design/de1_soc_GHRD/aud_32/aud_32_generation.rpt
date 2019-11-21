@@ -1,5 +1,50 @@
+Info: Starting: Create simulation model
+Info: qsys-generate /home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/simulation --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading de1_soc_GHRD/aud_32.qsys
+Progress: Reading input file
+Progress: Adding audio_0 [altera_up_avalon_audio 17.1]
+Progress: Parameterizing module audio_0
+Progress: Adding audio_and_video_config_0 [altera_up_avalon_audio_and_video_config 17.1]
+Progress: Parameterizing module audio_and_video_config_0
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: aud_32.audio_and_video_config_0: audio_and_video_config_0.avalon_av_config_slave must be connected to an Avalon-MM master
+Info: aud_32: Generating aud_32 "aud_32" for SIM_VERILOG
+Info: audio_0: Starting Generation of Audio Controller
+Info: audio_0: "aud_32" instantiated altera_up_avalon_audio "audio_0"
+Info: audio_and_video_config_0: Starting Generation of Audio and Video Config
+Info: audio_and_video_config_0: "aud_32" instantiated altera_up_avalon_audio_and_video_config "audio_and_video_config_0"
+Info: rst_controller: "aud_32" instantiated altera_reset_controller "rst_controller"
+Info: aud_32: Done "aud_32" with 4 modules, 25 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/aud_32.spd --output-directory=/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/aud_32.spd --output-directory=/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in /home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in /home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in /home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	3 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in /home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: 
 Info: Starting: Create HDL design files for synthesis
-Info: qsys-generate H:\juanjm2_git\micArray\Working_Code\de1_soc_GHRD\aud_32.qsys --synthesis=VERILOG --output-directory=H:\juanjm2_git\micArray\Working_Code\de1_soc_GHRD\aud_32\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Info: qsys-generate /home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32.qsys --synthesis=VERILOG --output-directory=/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis --family="Cyclone V" --part=5CSEMA5F31C6
 Progress: Loading de1_soc_GHRD/aud_32.qsys
 Progress: Reading input file
 Progress: Adding audio_0 [altera_up_avalon_audio 17.1]

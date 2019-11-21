@@ -4,11 +4,11 @@
 #include <fcntl.h>
 #include <sys/mman.h>
 #include <inttypes.h>
-#include "./include/hwlib.h"
-#include "./include/socal.h"
-#include "./include/hps.h"
-#include "./include/hps_0.h"
-#include "./include/alt_types.h"
+#include "hwlib.h"
+#include "socal.h"
+#include "hps.h"
+#include "hps_0.h"
+#include "alt_types.h"
 
 //#define BUF_SIZE 380000							// Buffer size ~5 seconds
 #define HW_REGS_BASE ( ALT_STM_OFST )

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2018.12.08.17:04:00"
- outputDirectory="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/">
+ date="2019.10.30.22:30:00"
+ outputDirectory="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -148,13 +148,13 @@
  </perimeter>
  <entity
    path=""
-   parameterizationKey="aud_32:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1544310238,AUTO_UNIQUE_ID=(altera_up_avalon_audio:17.1:AUTO_CLK_CLOCK_RATE=50000000,AUTO_DEVICE_FAMILY=Cyclone V,audio_in=true,audio_out=true,avalon_bus_type=Streaming,dw=32)(altera_up_avalon_audio_and_video_config:17.1:AUTO_CLK_CLOCK_RATE=50000000,AUTO_DEVICE_FAMILY=Cyclone V,audio_in=Line In to ADC,bit_length=32,board=DE1-SoC,bosr=250fs/256fs,d5m_resolution=2592 x 1944,dac_enable=true,data_format=Left Justified,device=On-Board Peripherals,eai=true,exposure=false,line_in_bypass=false,mic_attenuation=-6dB,mic_bypass=false,sampling_rate=48 kHz,sr_register=0,video_format=NTSC)(clock_source:17.1:clockFrequency=50000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(clock:17.1:)(clock:17.1:)(reset:17.1:)(reset:17.1:)"
+   parameterizationKey="aud_32:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1572474600,AUTO_UNIQUE_ID=(altera_up_avalon_audio:17.1:AUTO_CLK_CLOCK_RATE=50000000,AUTO_DEVICE_FAMILY=Cyclone V,audio_in=true,audio_out=true,avalon_bus_type=Streaming,dw=32)(altera_up_avalon_audio_and_video_config:17.1:AUTO_CLK_CLOCK_RATE=50000000,AUTO_DEVICE_FAMILY=Cyclone V,audio_in=Line In to ADC,bit_length=32,board=DE1-SoC,bosr=250fs/256fs,d5m_resolution=2592 x 1944,dac_enable=true,data_format=Left Justified,device=On-Board Peripherals,eai=true,exposure=false,line_in_bypass=false,mic_attenuation=-6dB,mic_bypass=false,sampling_rate=48 kHz,sr_register=0,video_format=NTSC)(clock_source:17.1:clockFrequency=50000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(clock:17.1:)(clock:17.1:)(reset:17.1:)(reset:17.1:)"
    instancePathKey="aud_32"
    kind="aud_32"
    version="1.0"
    name="aud_32">
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
-  <parameter name="AUTO_GENERATION_ID" value="1544310238" />
+  <parameter name="AUTO_GENERATION_ID" value="1572474600" />
   <parameter name="AUTO_DEVICE" value="5CSEMA5F31C6" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
   <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
@@ -163,134 +163,135 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6" />
   <generatedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/aud_32.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/aud_32.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_bit_counter.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_bit_counter.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_in_deserializer.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_in_deserializer.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_out_serializer.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_out_serializer.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_clock_edge.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_clock_edge.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_sync_fifo.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_sync_fifo.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/aud_32_audio_0.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/aud_32_audio_0.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_serial_bus_controller.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_serial_bus_controller.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_slow_clock_generator.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_slow_clock_generator.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_dc2.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_dc2.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_d5m.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_d5m.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_lcm.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_lcm.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ltm.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ltm.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de2i_150.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de2i_150.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de10_standard.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de10_standard.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/aud_32_audio_and_video_config_0.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/aud_32_audio_and_video_config_0.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_controller.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_controller.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_synchronizer.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_synchronizer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_controller.sdc"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_controller.sdc"
        type="SDC"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
-   <file path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32.qsys" />
+   <file
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32.qsys" />
   </sourceFiles>
   <childSourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/altera_up_avalon_audio_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/altera_up_avalon_audio_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_bit_counter.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_bit_counter.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_in_deserializer.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_in_deserializer.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_out_serializer.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_out_serializer.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_clock_edge.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_clock_edge.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_sync_fifo.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_sync_fifo.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/altera_up_avalon_audio_and_video_config_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/altera_up_avalon_audio_and_video_config_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_serial_bus_controller.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_serial_bus_controller.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_slow_clock_generator.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_slow_clock_generator.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_dc2.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_dc2.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_d5m.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_d5m.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_lcm.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_lcm.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ltm.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ltm.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de1_soc.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de1_soc.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2_115.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2_115.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2i_150.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2i_150.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de10_standard.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de10_standard.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_audio.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_audio.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7180.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7180.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7181.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7181.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
   </childSourceFiles>
   <messages>
    <message level="Debug" culprit="aud_32">queue size: 0 starting:aud_32 "aud_32"</message>
@@ -338,38 +339,38 @@
   <parameter name="audio_out" value="true" />
   <generatedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_bit_counter.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_bit_counter.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_in_deserializer.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_in_deserializer.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_out_serializer.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_audio_out_serializer.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_clock_edge.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_clock_edge.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_sync_fifo.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_sync_fifo.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/aud_32_audio_0.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/aud_32_audio_0.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/altera_up_avalon_audio_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/altera_up_avalon_audio_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_bit_counter.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_bit_counter.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_in_deserializer.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_in_deserializer.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_out_serializer.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_audio_out_serializer.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_clock_edge.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_clock_edge.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_sync_fifo.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio/hdl/altera_up_sync_fifo.v" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="aud_32" as="audio_0" />
@@ -406,83 +407,83 @@
   <parameter name="board" value="DE1-SoC" />
   <generatedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_serial_bus_controller.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_serial_bus_controller.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_slow_clock_generator.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_slow_clock_generator.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_dc2.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_dc2.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_d5m.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_d5m.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_lcm.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_lcm.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ltm.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ltm.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de2i_150.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de2i_150.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de10_standard.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_de10_standard.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/aud_32_audio_and_video_config_0.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/aud_32_audio_and_video_config_0.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/altera_up_avalon_audio_and_video_config_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/altera_up_avalon_audio_and_video_config_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_serial_bus_controller.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_serial_bus_controller.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_slow_clock_generator.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_slow_clock_generator.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_dc2.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_dc2.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_d5m.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_d5m.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_lcm.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_lcm.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ltm.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ltm.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de1_soc.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de1_soc.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2_115.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2_115.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2i_150.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2i_150.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de10_standard.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de10_standard.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_audio.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_audio.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7180.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7180.v" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7181.v" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7181.v" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="aud_32" as="audio_and_video_config_0" />
@@ -501,22 +502,22 @@
    name="altera_reset_controller">
   <generatedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_controller.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_controller.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_synchronizer.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_synchronizer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_controller.sdc"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/aud_32/synthesis/submodules/altera_reset_controller.sdc"
        type="SDC"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="aud_32" as="rst_controller" />

@@ -7,7 +7,7 @@ set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
 set_global_assignment -name TOP_LEVEL_ENTITY ghrd_top
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13
-set_global_assignment -name LAST_QUARTUS_VERSION "15.0.0 SP0.01WE"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Standard Edition"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "MON JUN 17 20:35:29 2013"
 set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
 
@@ -363,28 +363,6 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name VERILOG_FILE clock_generator.v
-set_global_assignment -name SYSTEMVERILOG_FILE avalon_audio_interface.sv
-set_global_assignment -name VERILOG_FILE audio_codec.v
-set_global_assignment -name VERILOG_FILE audio_and_video_config.v
-set_global_assignment -name VERILOG_FILE Altera_UP_SYNC_FIFO.v
-set_global_assignment -name VERILOG_FILE Altera_UP_Slow_Clock_Generator.v
-set_global_assignment -name VERILOG_FILE Altera_UP_I2C_LCM_Auto_Initialize.v
-set_global_assignment -name VERILOG_FILE Altera_UP_I2C_DC_Auto_Initialize.v
-set_global_assignment -name VERILOG_FILE Altera_UP_I2C_AV_Auto_Initialize.v
-set_global_assignment -name VERILOG_FILE Altera_UP_I2C.v
-set_global_assignment -name VERILOG_FILE Altera_UP_Clock_Edge.v
-set_global_assignment -name VERILOG_FILE Altera_UP_Audio_Out_Serializer.v
-set_global_assignment -name VERILOG_FILE Altera_UP_Audio_In_Deserializer.v
-set_global_assignment -name VERILOG_FILE Altera_UP_Audio_Bit_Counter.v
-set_global_assignment -name VERILOG_FILE i2s_receive.v
-set_global_assignment -name QIP_FILE ip/altsource_probe/hps_reset.qip
-set_global_assignment -name VERILOG_FILE ip/altsource_probe/hps_reset.v
-set_global_assignment -name VERILOG_FILE ip/debounce/debounce.v
-set_global_assignment -name VERILOG_FILE ip/edge_detect/altera_edge_detector.v
-set_global_assignment -name QIP_FILE soc_system/synthesis/soc_system.qip
-set_global_assignment -name SDC_FILE soc_system_timing.sdc
-set_global_assignment -name VERILOG_FILE ghrd_top.v
 set_location_assignment PIN_AC18 -to GPIO_DIN
 set_location_assignment PIN_Y17 -to GPIO_LRCLK
 set_location_assignment PIN_AD17 -to GPIO_BCLK
@@ -964,4 +942,25 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_LRCLK
 set_instance_assignment -name IO_STANDARD "2.5 V" -to GPIO_DIN2
 set_instance_assignment -name IO_STANDARD "2.5 V" -to GPIO_DIN
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_BCLK
+set_global_assignment -name VERILOG_FILE clock_generator.v
+set_global_assignment -name SYSTEMVERILOG_FILE avalon_audio_interface.sv
+set_global_assignment -name VERILOG_FILE audio_codec.v
+set_global_assignment -name VERILOG_FILE audio_and_video_config.v
+set_global_assignment -name VERILOG_FILE Altera_UP_SYNC_FIFO.v
+set_global_assignment -name VERILOG_FILE Altera_UP_Slow_Clock_Generator.v
+set_global_assignment -name VERILOG_FILE Altera_UP_I2C_LCM_Auto_Initialize.v
+set_global_assignment -name VERILOG_FILE Altera_UP_I2C_DC_Auto_Initialize.v
+set_global_assignment -name VERILOG_FILE Altera_UP_I2C_AV_Auto_Initialize.v
+set_global_assignment -name VERILOG_FILE Altera_UP_I2C.v
+set_global_assignment -name VERILOG_FILE Altera_UP_Clock_Edge.v
+set_global_assignment -name VERILOG_FILE Altera_UP_Audio_Out_Serializer.v
+set_global_assignment -name VERILOG_FILE Altera_UP_Audio_In_Deserializer.v
+set_global_assignment -name VERILOG_FILE Altera_UP_Audio_Bit_Counter.v
+set_global_assignment -name VERILOG_FILE i2s_receive.v
+set_global_assignment -name QIP_FILE ip/altsource_probe/hps_reset.qip
+set_global_assignment -name VERILOG_FILE ip/debounce/debounce.v
+set_global_assignment -name VERILOG_FILE ip/edge_detect/altera_edge_detector.v
+set_global_assignment -name QIP_FILE soc_system/synthesis/soc_system.qip
+set_global_assignment -name SDC_FILE soc_system_timing.sdc
+set_global_assignment -name VERILOG_FILE ghrd_top.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

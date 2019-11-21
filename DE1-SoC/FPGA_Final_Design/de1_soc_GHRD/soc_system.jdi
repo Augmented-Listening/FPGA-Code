@@ -1,6 +1,6 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="973ce5fb16a5d33fd782"/>
+    <hash md5_digest_80b="9aabb597f5eacd06a4c2"/>
   </project>
   <file_info>
     <file device="5CSEMA5F31C6" path="soc_system.sof" usercode="0xFFFFFFFF"/>
@@ -15,14 +15,14 @@
         <parameter name="SLD_IP_VERSION" type="dec" value="6"/>
         <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="0"/>
         <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
-        <parameter name="sld_data_bits" type="unknown" value="143"/>
-        <parameter name="sld_trigger_bits" type="unknown" value="143"/>
+        <parameter name="sld_data_bits" type="unknown" value="2"/>
+        <parameter name="sld_trigger_bits" type="unknown" value="2"/>
         <parameter name="SLD_NODE_CRC_BITS" type="dec" value="32"/>
         <parameter name="SLD_NODE_CRC_HIWORD" type="dec" value="41394"/>
         <parameter name="SLD_NODE_CRC_LOWORD" type="dec" value="50132"/>
         <parameter name="sld_incremental_routing" type="unknown" value="1"/>
-        <parameter name="sld_sample_depth" type="unknown" value="8192"/>
-        <parameter name="sld_segment_size" type="unknown" value="8192"/>
+        <parameter name="sld_sample_depth" type="unknown" value="128"/>
+        <parameter name="sld_segment_size" type="unknown" value="128"/>
         <parameter name="sld_ram_block_type" type="unknown" value="AUTO"/>
         <parameter name="sld_state_bits" type="unknown" value="11"/>
         <parameter name="sld_buffer_full_stop" type="unknown" value="1"/>
@@ -50,14 +50,14 @@
         <parameter name="SLD_ADVANCED_TRIGGER_8" type="string" value="NONE"/>
         <parameter name="SLD_ADVANCED_TRIGGER_9" type="string" value="NONE"/>
         <parameter name="SLD_ADVANCED_TRIGGER_10" type="string" value="NONE"/>
-        <parameter name="sld_inversion_mask_length" type="unknown" value="456"/>
-        <parameter name="sld_inversion_mask" type="unknown" value="000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"/>
+        <parameter name="sld_inversion_mask_length" type="unknown" value="27"/>
+        <parameter name="sld_inversion_mask" type="unknown" value="000000000000000000000000000"/>
         <parameter name="sld_power_up_trigger" type="unknown" value="0"/>
         <parameter name="SLD_STATE_FLOW_MGR_ENTITY" type="string" value="state_flow_mgr_entity.vhd"/>
         <parameter name="sld_state_flow_use_generated" type="unknown" value="0"/>
         <parameter name="sld_current_resource_width" type="unknown" value="1"/>
         <parameter name="sld_attribute_mem_mode" type="unknown" value="OFF"/>
-        <parameter name="sld_storage_qualifier_bits" type="unknown" value="143"/>
+        <parameter name="sld_storage_qualifier_bits" type="unknown" value="2"/>
         <parameter name="SLD_STORAGE_QUALIFIER_GAP_RECORD" type="dec" value="0"/>
         <parameter name="SLD_STORAGE_QUALIFIER_MODE" type="string" value="OFF"/>
         <parameter name="SLD_STORAGE_QUALIFIER_ENABLE_ADVANCED_CONDITION" type="dec" value="0"/>
@@ -74,79 +74,79 @@
   <sld_infos>
     <sld_info hpath="aud_32:line32" name="line32">
       <assignment_values>
-        <assignment_value text="QSYS_NAME aud_32 HAS_SOPCINFO 1 GENERATION_ID 1544310238"/>
+        <assignment_value text="QSYS_NAME aud_32 HAS_SOPCINFO 1 GENERATION_ID 1572474600"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="audio_pll:clock_gen" name="clock_gen">
       <assignment_values>
-        <assignment_value text="QSYS_NAME audio_pll HAS_SOPCINFO 1 GENERATION_ID 1525879033"/>
+        <assignment_value text="QSYS_NAME audio_pll HAS_SOPCINFO 1 GENERATION_ID 1522740479"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="coef_fifo:f1" name="f1">
       <assignment_values>
-        <assignment_value text="QSYS_NAME coef_fifo HAS_SOPCINFO 1 GENERATION_ID 1551748436"/>
+        <assignment_value text="QSYS_NAME coef_fifo HAS_SOPCINFO 1 GENERATION_ID 1572474689"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="fir:low_pass" name="low_pass">
       <assignment_values>
-        <assignment_value text="QSYS_NAME fir HAS_SOPCINFO 1 GENERATION_ID 1552019707"/>
+        <assignment_value text="QSYS_NAME fir HAS_SOPCINFO 1 GENERATION_ID 1572474628"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="volumeControl:vol_cntl|float:inst_L" name="inst_L">
       <assignment_values>
-        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1544256092"/>
+        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1572474491"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="volumeControl:vol_cntl|float:inst_R" name="inst_R">
       <assignment_values>
-        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1544256092"/>
+        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1572474491"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="volumeControl:vol_cntl|float:inst_fir_3" name="inst_fir_3">
       <assignment_values>
-        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1544256092"/>
+        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1572474491"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="volumeControl:vol_cntl|float:inst_fir_4" name="inst_fir_4">
       <assignment_values>
-        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1544256092"/>
+        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1572474491"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="volumeControl:vol_cntl|float:inst_fir_5" name="inst_fir_5">
       <assignment_values>
-        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1544256092"/>
+        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1572474491"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="volumeControl:vol_cntl|float:inst_fir_6" name="inst_fir_6">
       <assignment_values>
-        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1544256092"/>
+        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1572474491"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="volumeControl:vol_cntl|float:inst_fir_7" name="inst_fir_7">
       <assignment_values>
-        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1544256092"/>
+        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1572474491"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="volumeControl:vol_cntl|float:inst_fir_8" name="inst_fir_8">
       <assignment_values>
-        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1544256092"/>
+        <assignment_value text="QSYS_NAME float HAS_SOPCINFO 1 GENERATION_ID 1572474491"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="soc_system:u0" name="u0">
       <assignment_values>
-        <assignment_value text="QSYS_NAME soc_system HAS_SOPCINFO 1 GENERATION_ID 1556681496"/>
+        <assignment_value text="QSYS_NAME soc_system HAS_SOPCINFO 1 GENERATION_ID 1572474064"/>
       </assignment_values>
       <parameters/>
     </sld_info>

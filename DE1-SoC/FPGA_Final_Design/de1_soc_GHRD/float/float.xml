@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2018.12.08.02:01:37"
- outputDirectory="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/">
+ date="2019.10.30.22:28:11"
+ outputDirectory="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -70,112 +70,113 @@
  </perimeter>
  <entity
    path=""
-   parameterizationKey="float:1.0:AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1544256092,AUTO_UNIQUE_ID=(altera_nios_custom_instr_floating_point_2:17.1:AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_SPEEDGRADE=6,arithmetic_present=true,comparison_present=true,conversion_present=true,deviceFamily=Cyclone V,root_present=true(altera_nios_custom_instr_floating_point_2_combi:17.1:arithmetic_present=1,comparison_present=1,deviceFamily=Cyclone V)(altera_nios_custom_instr_floating_point_2_multi:17.1:arithmetic_present=1,conversion_present=1,deviceFamily=Cyclone V,root_present=1))"
+   parameterizationKey="float:1.0:AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1572474491,AUTO_UNIQUE_ID=(altera_nios_custom_instr_floating_point_2:17.1:AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_SPEEDGRADE=6,arithmetic_present=true,comparison_present=true,conversion_present=true,deviceFamily=Cyclone V,root_present=true(altera_nios_custom_instr_floating_point_2_combi:17.1:arithmetic_present=1,comparison_present=1,deviceFamily=Cyclone V)(altera_nios_custom_instr_floating_point_2_multi:17.1:arithmetic_present=1,conversion_present=1,deviceFamily=Cyclone V,root_present=1))"
    instancePathKey="float"
    kind="float"
    version="1.0"
    name="float">
-  <parameter name="AUTO_GENERATION_ID" value="1544256092" />
+  <parameter name="AUTO_GENERATION_ID" value="1572474491" />
   <parameter name="AUTO_DEVICE" value="5CSEMA5F31C6" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
   <parameter name="AUTO_UNIQUE_ID" value="" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6" />
   <generatedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/float.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/float.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/float_nios_custom_instr_floating_point_2_0.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/float_nios_custom_instr_floating_point_2_0.v"
        type="VERILOG" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_combi.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_combi.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPMinMaxFused/FPMinMaxFused.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPMinMaxFused/FPMinMaxFused.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPCompareFused/FPCompareFused.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPCompareFused/FPCompareFused.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPNeg.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPNeg.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPAbs.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPAbs.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_datapath.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_datapath.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library_package.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library_package.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPAddSub/FPAddSub.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPAddSub/FPAddSub.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPDiv/FPDiv.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPDiv/FPDiv.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPMult/FPMult.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPMult/FPMult.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/IntToFloat/IntToFloat.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/IntToFloat/IntToFloat.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FloatToInt/FloatToInt.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FloatToInt/FloatToInt.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_safe_path.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_safe_path.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC0_uid59_sqrtTableGenerator_lutmem.hex"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC0_uid59_sqrtTableGenerator_lutmem.hex"
        type="HEX"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC1_uid60_sqrtTableGenerator_lutmem.hex"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC1_uid60_sqrtTableGenerator_lutmem.hex"
        type="HEX"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC2_uid61_sqrtTableGenerator_lutmem.hex"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC2_uid61_sqrtTableGenerator_lutmem.hex"
        type="HEX"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
-   <file path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float.qsys" />
+   <file
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float.qsys" />
   </sourceFiles>
   <childSourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2/fpoint2_qsys_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2/fpoint2_qsys_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_combi/fpoint2_combi_qsys_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_combi/fpoint2_combi_qsys_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_multi/fpoint2_multi_qsys_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_multi/fpoint2_multi_qsys_hw.tcl" />
   </childSourceFiles>
   <messages>
    <message level="Debug" culprit="float">queue size: 0 starting:float "float"</message>
@@ -230,96 +231,96 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6" />
   <generatedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/float_nios_custom_instr_floating_point_2_0.v"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/float_nios_custom_instr_floating_point_2_0.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_combi.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_combi.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPMinMaxFused/FPMinMaxFused.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPMinMaxFused/FPMinMaxFused.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPCompareFused/FPCompareFused.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPCompareFused/FPCompareFused.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPNeg.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPNeg.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPAbs.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPAbs.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_datapath.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_datapath.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library_package.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library_package.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPAddSub/FPAddSub.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPAddSub/FPAddSub.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPDiv/FPDiv.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPDiv/FPDiv.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPMult/FPMult.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPMult/FPMult.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/IntToFloat/IntToFloat.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/IntToFloat/IntToFloat.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FloatToInt/FloatToInt.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FloatToInt/FloatToInt.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_safe_path.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_safe_path.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC0_uid59_sqrtTableGenerator_lutmem.hex"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC0_uid59_sqrtTableGenerator_lutmem.hex"
        type="HEX"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC1_uid60_sqrtTableGenerator_lutmem.hex"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC1_uid60_sqrtTableGenerator_lutmem.hex"
        type="HEX"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC2_uid61_sqrtTableGenerator_lutmem.hex"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC2_uid61_sqrtTableGenerator_lutmem.hex"
        type="HEX"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2/fpoint2_qsys_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2/fpoint2_qsys_hw.tcl" />
   </sourceFiles>
   <childSourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_combi/fpoint2_combi_qsys_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_combi/fpoint2_combi_qsys_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_multi/fpoint2_multi_qsys_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_multi/fpoint2_multi_qsys_hw.tcl" />
   </childSourceFiles>
   <instantiator instantiator="float" as="nios_custom_instr_floating_point_2_0" />
   <messages>
@@ -357,30 +358,30 @@
   <parameter name="deviceFamily" value="Cyclone V" />
   <generatedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_combi.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_combi.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPMinMaxFused/FPMinMaxFused.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPMinMaxFused/FPMinMaxFused.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPCompareFused/FPCompareFused.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPCompareFused/FPCompareFused.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPNeg.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPNeg.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPAbs.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPNeg_Abs/FPAbs.vhd"
        type="VHDL"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_combi/fpoint2_combi_qsys_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_combi/fpoint2_combi_qsys_hw.tcl" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator
@@ -404,66 +405,66 @@
   <parameter name="conversion_present" value="1" />
   <generatedFiles>
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_datapath.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_datapath.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library_package.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library_package.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/fpoint2_multi_dspba_library.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPAddSub/FPAddSub.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPAddSub/FPAddSub.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPDiv/FPDiv.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPDiv/FPDiv.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPMult/FPMult.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPMult/FPMult.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/IntToFloat/IntToFloat.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/IntToFloat/IntToFloat.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FloatToInt/FloatToInt.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FloatToInt/FloatToInt.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_safe_path.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_safe_path.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt.vhd"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC0_uid59_sqrtTableGenerator_lutmem.hex"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC0_uid59_sqrtTableGenerator_lutmem.hex"
        type="HEX"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC1_uid60_sqrtTableGenerator_lutmem.hex"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC1_uid60_sqrtTableGenerator_lutmem.hex"
        type="HEX"
        attributes="" />
    <file
-       path="H:/juanjm2_git/micArray/Working_Code/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC2_uid61_sqrtTableGenerator_lutmem.hex"
+       path="/home/ubuntu/Code/FPGA-Code/DE1-SoC/FPGA_Final_Design/de1_soc_GHRD/float/synthesis/submodules/FPSqrt/FPSqrt_memoryC2_uid61_sqrtTableGenerator_lutmem.hex"
        type="HEX"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_multi/fpoint2_multi_qsys_hw.tcl" />
+       path="/home/ubuntu/intelFPGA/17.1/ip/altera/altera_nios_custom_instr_floating_point_2/altera_nios_custom_instr_floating_point_2_multi/fpoint2_multi_qsys_hw.tcl" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator

@@ -1,0 +1,43 @@
+# system info aud_32 on 2019.10.30.22:29:59
+system_info:
+name,value
+DEVICE,5CSEMA5F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1572474599
+#
+#
+# Files generated for aud_32 on 2019.10.30.22:29:59
+files:
+filepath,kind,attributes,module,is_top
+simulation/aud_32.v,VERILOG,,aud_32,true
+simulation/submodules/altera_up_audio_bit_counter.v,VERILOG,,aud_32_audio_0,false
+simulation/submodules/altera_up_audio_in_deserializer.v,VERILOG,,aud_32_audio_0,false
+simulation/submodules/altera_up_audio_out_serializer.v,VERILOG,,aud_32_audio_0,false
+simulation/submodules/altera_up_clock_edge.v,VERILOG,,aud_32_audio_0,false
+simulation/submodules/altera_up_sync_fifo.v,VERILOG,,aud_32_audio_0,false
+simulation/submodules/aud_32_audio_0.v,VERILOG,,aud_32_audio_0,false
+simulation/submodules/altera_up_av_config_serial_bus_controller.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_slow_clock_generator.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init_dc2.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init_d5m.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init_lcm.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init_ltm.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init_ob_de1_soc.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init_ob_de2_115.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init_ob_de2i_150.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init_ob_de10_standard.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init_ob_audio.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init_ob_adv7180.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_up_av_config_auto_init_ob_adv7181.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/aud_32_audio_and_video_config_0.v,VERILOG,,aud_32_audio_and_video_config_0,false
+simulation/submodules/altera_reset_controller.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_synchronizer.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_controller.sdc,SDC,,altera_reset_controller,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+aud_32.audio_0,aud_32_audio_0
+aud_32.audio_and_video_config_0,aud_32_audio_and_video_config_0
+aud_32.rst_controller,altera_reset_controller

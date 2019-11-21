@@ -1,6 +1,6 @@
 Info: Starting: Create block symbol file (.bsf)
-Info: qsys-generate H:\juanjm2_git\micArray\DE1-SoC_Computer\verilog\audio_pll.qsys --block-symbol-file --output-directory=H:\juanjm2_git\micArray\DE1-SoC_Computer\verilog\audio_pll --family="Cyclone V" --part=5CSEMA5F31C6
-Progress: Loading verilog/audio_pll.qsys
+Info: qsys-generate C:\Users\juanjm2\Desktop\RTL_2_Mics\RTL_2_Mics\base\audio_pll.qsys --block-symbol-file --output-directory=C:\Users\juanjm2\Desktop\RTL_2_Mics\RTL_2_Mics\base\audio_pll --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading base/audio_pll.qsys
 Progress: Reading input file
 Progress: Adding audio_pll_0 [altera_up_avalon_audio_pll 17.1]
 Progress: Parameterizing module audio_pll_0
@@ -12,8 +12,8 @@ Info: qsys-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
 Info: 
 Info: Starting: Create HDL design files for synthesis
-Info: qsys-generate H:\juanjm2_git\micArray\DE1-SoC_Computer\verilog\audio_pll.qsys --synthesis=VERILOG --output-directory=H:\juanjm2_git\micArray\DE1-SoC_Computer\verilog\audio_pll\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
-Progress: Loading verilog/audio_pll.qsys
+Info: qsys-generate C:\Users\juanjm2\Desktop\RTL_2_Mics\RTL_2_Mics\base\audio_pll.qsys --synthesis=VERILOG --output-directory=C:\Users\juanjm2\Desktop\RTL_2_Mics\RTL_2_Mics\base\audio_pll\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading base/audio_pll.qsys
 Progress: Reading input file
 Progress: Adding audio_pll_0 [altera_up_avalon_audio_pll 17.1]
 Progress: Parameterizing module audio_pll_0
